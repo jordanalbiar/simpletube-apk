@@ -6,6 +6,12 @@ SimpleTube is a simple YouTube player for Android, built for the Motorola Razr. 
 
 Website: https://jordanalbiar.github.io/simpletube/
 
+![The SimpleTube website](simpletube-shot-hero.png)
+
+## How it works
+
+![How SimpleTube works](how-it-works.png)
+
 ## What it does
 
 - Paste a YouTube link or search by name, the first result plays immediately
@@ -16,6 +22,18 @@ Website: https://jordanalbiar.github.io/simpletube/
 - Cover screen widget for the Razr, with the video filling the mini back screen
 - Audio-only mode, sleep timer, and a Surprise Me shuffle
 
+## The app
+
+![The SimpleTube app](app.png)
+
+![The app, live on the website](simpletube-shot-app.png)
+
+## Cover screen
+
+![Cover screen on the Razr](cover-screen.png)
+
+![The cover screen section of the website](simpletube-shot-cover.png)
+
 ## Install
 
 1. Download **simpletube-v1.67.apk** from this repo, or from the website
@@ -23,6 +41,8 @@ Website: https://jordanalbiar.github.io/simpletube/
 3. Install it right over your current version. Your queue, favorites, and downloads carry over
 
 Requires Android 8 or newer. It is not on the Play Store.
+
+![Download SimpleTube](simpletube-shot-download.png)
 
 ## v1.67
 
