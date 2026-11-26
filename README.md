@@ -24,8 +24,6 @@ Website: https://jordanalbiar.github.io/simpletube/
 
 ## The app
 
-![The SimpleTube app](app.png)
-
 ![The app, live on the website](simpletube-shot-app.png)
 
 ## Cover screen
