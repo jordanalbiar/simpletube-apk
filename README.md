@@ -28,8 +28,6 @@ Website: https://jordanalbiar.github.io/simpletube/
 
 ## Cover screen
 
-![Cover screen on the Razr](cover-screen.png)
-
 ![The cover screen section of the website](simpletube-shot-cover.png)
 
 ## Install
