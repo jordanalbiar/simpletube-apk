@@ -32,9 +32,15 @@ Website: https://jordanalbiar.github.io/simpletube/
 
 ![Radio mode banner](radio-banner.webp)
 
+Radio Mode: when the queue runs out, it keeps playing the next video automatically.
+
 ![Audio only banner](audio-only-banner.webp)
 
+Audio Only: plays just the sound, with no video.
+
 ![Sleep timer banner](sleep-timer-banner.webp)
+
+Sleep Timer: stops playback after a set time.
 
 
 ## The app
