@@ -4,6 +4,8 @@
 
 SimpleTube is a simple YouTube player for Android, built for the Motorola Razr. Paste a link or type a name, and the first result plays right away at the best quality on offer. Download it while it streams and the file stays on your phone.
 
+Optimized for the Motorola Razr and Android 16.
+
 Website: https://jordanalbiar.github.io/simpletube/
 
 ![The SimpleTube website](simpletube-shot-hero.png)
@@ -21,6 +23,22 @@ Website: https://jordanalbiar.github.io/simpletube/
 - Queue with auto-advance, favorites, history, and a live terminal log
 - Cover screen widget for the Razr, with the video filling the mini back screen
 - Audio-only mode, sleep timer, and a Surprise Me shuffle
+- Subscriptions feed from your followed channels, fetched fast over lightweight RSS, with an incremental refresh that only adds what is new since your last refresh
+- Notification panel widget: what is playing or paused, with play, pause, and stop, on a custom card with the video thumbnail blurred behind it. Turn it off in Settings, App methods, like picture-in-picture
+- Device performance presets: LOW, BALANCED, and HIGH, plus reset to defaults
+- Widgets and picture-in-picture controls, with play, pause, next, and stop
+
+## New illustration art
+
+![Radio mode banner](radio-banner.webp)
+
+![Audio only banner](audio-only-banner.webp)
+
+![Sleep timer banner](sleep-timer-banner.webp)
+
+![Notification panel](notification-panel-concept.webp)
+
+The new notification panel, with the video thumbnail blurred behind it.
 
 ## The app
 
@@ -32,23 +50,30 @@ Website: https://jordanalbiar.github.io/simpletube/
 
 ## Install
 
-1. Download **simpletube-v1.67.apk** from this repo, or from the website
+1. Download **simpletube-v1.92.apk** from this repo, or from the website
 2. Open the APK on your Android phone and allow installs from unknown sources when asked
 3. Install it right over your current version. Your queue, favorites, and downloads carry over
 
-Requires Android 8 or newer. It is not on the Play Store.
+Requires Android 8 or newer. It is not on the Play Store. Optimized for the Motorola Razr and Android 16.
 
 ![Download SimpleTube](simpletube-shot-download.png)
 
-## v1.67
+## v1.92
 
-- Downloaded videos play with sound: the muxer writes with direct buffers, the file player sets its audio explicitly at full volume, and the log reports a file's audio samples on every play
-- A downloaded file with no sound gets flagged for re-download instead of playing quiet
-- All eight top buttons are one height
-- The description stays visible with the logs open
-- A single download bar at the top
-- A fresh launch opens the home page
-- A Buy me a cup of coffee button in Settings, at https://www.paypal.me/jordanalbiar
+- Subscriptions load over lightweight RSS instead of full page scrapes, rows stay tappable while loading, and REFRESH only adds videos posted since your last refresh
+- Feed scrollbars sit clear of the row buttons
+- The logo video stops when a panel opens
+- Top toolbar STOP and DOWNLOAD are icon-only
+- Notification panel widget with an on/off toggle, custom card, blurred thumbnail background, and centered play, pause, and stop
+- Audio only and sleep timer banners in the Utilities panel
+- Widget play and resume fixed in picture-in-picture
+- Thumbnail loads skip instead of crashing when the heap is nearly full
+- Device performance presets LOW, BALANCED, and HIGH, plus reset to defaults
+- Batched Takeout import that shows progress as channels are added
+- Glossy red pill buttons, sliders, and toggles
+- CLEAR ALL for the whole Following list, with a confirmation dialog
+- Loading percentage inside the buffering spinners
+- Icon-only pause buttons and top toolbar buttons, and a cleaner mini screen layout
 
 ## Disclaimer
 
