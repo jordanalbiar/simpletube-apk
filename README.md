@@ -36,9 +36,6 @@ Website: https://jordanalbiar.github.io/simpletube/
 
 ![Sleep timer banner](sleep-timer-banner.webp)
 
-![Notification panel](notification-panel-concept.webp)
-
-The new notification panel, with the video thumbnail blurred behind it.
 
 ## The app
 
